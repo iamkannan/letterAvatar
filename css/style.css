@@ -1,0 +1,129 @@
+/*
+@author: Kannan
+*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: #FFF;
+}
+a {
+	-moz-user-select: none;
+	color: #1155CC !important;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#frame1, #frame0 {
+	background-color: #F7F7F7;
+	margin: 30px auto auto;
+	padding: 10px;
+	width: 750px;
+	border: 1px solid #EEE;
+	text-align: center;
+}
+#fade {
+	background: none repeat scroll 0 0 #D3DCE3;
+	display: none;
+	height: 100%;
+	left: 0;
+	opacity: 0.4;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+#centerBox {
+	background-color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+	display: none;
+	max-height: 480px;
+	overflow: auto;
+	visibility: hidden;
+	width: 710px;
+	z-index: 100;
+}
+.box1 {
+	background: none repeat scroll 0 0 #F3F7FD;
+	border: 1px solid #D3E1F9;
+	font-size: 12px;
+	margin-top: 5px;
+	padding: 4px;
+}
+.button1 {
+	background-color: #FFFFFF;
+	background-image: -moz-linear-gradient(center bottom, #EDEDED 30%, #FFFFFF 83%);
+	border-color: #999999;
+	border-radius: 2px 2px 2px 2px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	color: #333333;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	height: 25px;
+	line-height: 24px;
+	margin-right: 2px;
+	min-width: 40px;
+	padding: 0 16px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+}
+.button1:hover {
+	text-decoration: underline;
+}
+.button1:active, .a:active {
+	position: relative;
+	top: 1px;
+}
+#imgContainer {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+#imgArea {
+	display: inline-block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#imgArea img {
+	outline: medium none;
+	vertical-align: middle;
+	width: 100%;
+}
+#user_name {
+	background-color: #FFFFFF;
+	border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 5px;
+	width: 142px;
+}
+.bottomBox {
+	background-color: #F4F4F4;
+	border: 1px solid #DEDEDE;
+	color: #595959;
+	display: inline-block;
+	font-size: 13px;
+	margin-top: 10px;
+	padding: 10px 15px;
+}
